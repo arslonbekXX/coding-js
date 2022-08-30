@@ -1,10 +1,9 @@
-import Hex from "./components/hex";
+import SignUp from "./components/sign-up";
 
 function App() {
   return (
     <div className='app'>
-      <Hex color='red' onClick={() => console.log("red clicked")} />
-      <Hex color='#efed40' onClick={() => console.log("#efed40 clicked")} />
+      <SignUp />
     </div>
   );
 }
